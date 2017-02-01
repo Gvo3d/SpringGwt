@@ -9,6 +9,7 @@
         <spring.version>4.2.4.RELEASE</spring.version>
         <gwtversion>2.4.0</gwtversion>
         <log4j.version>1.2.17</log4j.version>
+        <buildDirectory>C:\Program Files\Java\apache-tomcat-8.0.32\webapps</buildDirectory>
     </properties>
 
     <dependencies>
@@ -49,6 +50,7 @@
     </dependencies>
 
     <build>
+        <directory>${buildDirectory}</directory>
         <finalName>hellogwt</finalName>
         <plugins>
             <plugin>

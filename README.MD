@@ -1,0 +1,1 @@
+http://alextretyakov.blogspot.com/2011/10/spring-gwt-2-gwt.html
