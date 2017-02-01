@@ -38,6 +38,14 @@
             <version>${log4j.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.code</groupId>
+            <artifactId>spring4gwt</artifactId>
+            <version>0.0.1</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/libs/spring4gwt-0.0.1.jar</systemPath>
+        </dependency>
+
     </dependencies>
 
     <build>
