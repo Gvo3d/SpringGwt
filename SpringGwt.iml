@@ -26,14 +26,6 @@
     <orderEntry type="library" name="Maven: javax.validation:validation-api:1.0.0.GA" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:sources:1.0.0.GA" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: com.google.code:spring4gwt:0.0.1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/spring4gwt-0.0.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: com.google.code:spring4gwt:0.0.1" level="project" />
   </component>
 </module>

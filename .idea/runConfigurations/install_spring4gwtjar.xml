@@ -1,0 +1,31 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="install spring4gwtjar" type="MavenRunConfiguration" factoryName="Maven">
+    <MavenSettings>
+      <option name="myGeneralSettings" />
+      <option name="myRunnerSettings" />
+      <option name="myRunnerParameters">
+        <MavenRunnerParameters>
+          <option name="profiles">
+            <set />
+          </option>
+          <option name="goals">
+            <list>
+              <option value="install:install-file" />
+              <option value="-Dfile=libs\spring4gwt-0.0.1.jar" />
+              <option value="-DgroupId=com.google.code" />
+              <option value="-DartifactId=spring4gwt" />
+              <option value="-Dversion=0.0.1" />
+              <option value="-Dpackaging=jar" />
+            </list>
+          </option>
+          <option name="profilesMap">
+            <map />
+          </option>
+          <option name="resolveToWorkspace" value="false" />
+          <option name="workingDirPath" value="$PROJECT_DIR$" />
+        </MavenRunnerParameters>
+      </option>
+    </MavenSettings>
+    <method />
+  </configuration>
+</component>
