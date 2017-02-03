@@ -6,10 +6,12 @@
     <packaging>war</packaging>
 
     <properties>
+        <buildDirectory>C:\Program Files\Java\apache-tomcat-8.0.32\webapps</buildDirectory>
         <spring.version>4.2.4.RELEASE</spring.version>
         <gwtversion>2.4.0</gwtversion>
         <log4j.version>1.2.17</log4j.version>
-        <buildDirectory>C:\Program Files\Java\apache-tomcat-8.0.32\webapps</buildDirectory>
+        <mybatis-spring.version>1.0.1</mybatis-spring.version>
+        <mysql-connector-java.version>5.1.18</mysql-connector-java.version>
     </properties>
 
     <dependencies>
@@ -43,6 +45,18 @@
             <groupId>com.google.code</groupId>
             <artifactId>spring4gwt</artifactId>
             <version>0.0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>${mybatis-spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
         </dependency>
 
     </dependencies>
