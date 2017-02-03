@@ -13,7 +13,7 @@
         </g:HorizontalPanel>
 
         <g:HorizontalPanel>
-            <g:Button ui:field="addButton" text="Add" width="50"/>
+            <g:Button ui:field="addButton" text="Add" width="50" id="mainbutton"/>
             <g:Button ui:field="updateButton" text="Update" width="50"/>
             <g:Button ui:field="deleteButton" text="Delete" width="50"/>
         </g:HorizontalPanel>

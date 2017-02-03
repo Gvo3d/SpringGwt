@@ -8,6 +8,7 @@ import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.*;
+import com.hellogwt.client.res.ResourcesBundle;
 import com.hellogwt.client.service.GreetingService;
 import com.hellogwt.client.service.GreetingServiceAsync;
 import com.hellogwt.shared.domain.Greeting;
@@ -20,7 +21,7 @@ public class HelloGWTWidget extends Composite {
     }
 
     private static HelloGWTWidgetUiBinder uiBinder = GWT.create(HelloGWTWidgetUiBinder.class);
-
+    private ResourcesBundle resources = GWT.create(ResourcesBundle.class);
     private GreetingServiceAsync greetingService = GWT.create(GreetingService.class);
 
     private AsyncCallback<Void> callback = new AsyncCallback<Void>() {
@@ -48,7 +49,7 @@ public class HelloGWTWidget extends Composite {
 
     public HelloGWTWidget() {
         initWidget(uiBinder.createAndBindUi(this));
-
+        resources.css().ensureInjected();
         refreshGreetingsTable();
     }
 

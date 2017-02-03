@@ -4,6 +4,7 @@
 <module rename-to='hellogwt'>
     <inherits name='com.google.gwt.user.User'/>
     <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+    <inherits name="com.google.gwt.resources.Resources" />
     <entry-point class='com.hellogwt.client.HelloGWT'/>
 
     <source path='client'/>
